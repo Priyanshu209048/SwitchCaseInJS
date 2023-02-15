@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        // const d = new Date();
+        // document.write(d);
+        var month = prompt("Enter the month: ");
+        myFunction(month);
+        function myFunction(month){
+            // var month = parseInt(prompt("Enter the month: "));
+            var store = "";
+
+            switch(month){
+                case "January": store = "January"; break;
+                case "February": store = "Februar"; break;
+                case "March": store = "March"; break;
+                case "April": store = "April"; break;
+                case "May": store = "May"; break;
+                case "June": store = "June"; break;
+                case "July": store = "July"; break;
+                case "August": store = "August"; break;
+                case "September": store = "September"; break;
+                case "October": store = "October"; break;
+                case "November": store = "November"; break;
+                case "December": store = "December"; break;
+                default: document.write("Wrong Input"); break;
+            }
+
+            document.write("Current Month is " + store);
+            alert("Current Month is " + store);
+            console.log("Current Month is " + store);
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
